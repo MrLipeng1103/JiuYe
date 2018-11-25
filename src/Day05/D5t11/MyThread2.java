@@ -5,7 +5,7 @@ public class MyThread2 extends Thread {
     public void run() {
         long start = System.currentTimeMillis();
         for (int i = 0; i < 100000; i++) {
-            String b = "黑马程序员" + i;
+            String b = "程序员" + i;
             //System.out.println(b);
         }
         long end = System.currentTimeMillis();
